@@ -49,6 +49,10 @@ input {
     text-transform: uppercase;
 }
 
+input:focus {
+    outline: 0;
+}
+
 .search_city img {
     margin-right: 40px;
     transition: 1000ms;
